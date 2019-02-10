@@ -12,4 +12,4 @@ var server = net.createServer(function(socket) {
 	socket.pipe(socket);
 });
 
-server.listen(5432, '127.0.0.1');
+server.listen(5432, '0.0.0.0');
